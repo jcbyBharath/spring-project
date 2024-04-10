@@ -1,0 +1,23 @@
+steps:
+1. checkout code (github /bitbucket)
+2. build
+3. Run test cases
+4. Sonar code quality check
+5. build --> company on-premise artifactory
+https://ibm.aritfactory.com/ / /com/sb/inclass/project/sb-inclass-project-0.0.1.jar
+6. pick this and place it in url ->  org/space
+7. restart
+
+=============== CI / CD -->
+
+Ansible Tower --> CD
+
+Physical Server --> weblogic, websphere -->
+PCF --> pivotal clound foundry
+
+org/space/apps  -- cf deploy
+--> BTECH/{elec (students), electron, civil, mech}
+--> IBM/{ proj{app1, app2, app3}}
+AWS --> EC2
+ ================
+
